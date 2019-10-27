@@ -2,9 +2,16 @@ package GeneratePhotoElement;
 
 import GeneratePhotoElement.Character.DisneyArCharacter;
 
+/* Define how a scene is composed
+   including one mainCharacter and background word
+   @author Freakx
+* */
+
 public class MovieScene {
+
     protected DisneyArCharacter mainCharacter;
     protected String background;
+
     public MovieScene(DisneyArCharacter initCharacter, String initBackground){
         this.mainCharacter = initCharacter;
         this.background = initBackground;

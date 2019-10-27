@@ -1,5 +1,10 @@
 package GeneratePhotoElement.PhotoUser;
 import GeneratePhotoElement.ArPhotoRoom.*;
+
+
+
+
+
 public class User {
     private UserState cur_state;
 

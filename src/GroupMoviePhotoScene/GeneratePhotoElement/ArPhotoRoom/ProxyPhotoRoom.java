@@ -1,8 +1,11 @@
 package GeneratePhotoElement.ArPhotoRoom;
 import GeneratePhotoElement.PhotoUser.*;
 
+
+
 public class ProxyPhotoRoom implements PhotoRoom {
     private RealPhotoRoom realPhotoRoom;
+
     private int state;
 
     public ProxyPhotoRoom(){
@@ -23,6 +26,12 @@ public class ProxyPhotoRoom implements PhotoRoom {
     }
 
     public int getState(){return this.state;}
+
+    /* Help to resolve the state of a realRoom
+     * react due to the state of a user and itselg
+     * @param user
+     *        the proxied user
+    * */
 
     public void proxy(User user){
         if(this.state == 0 && user.getCur_state().getStateName().equalsIgnoreCase("Apply")){

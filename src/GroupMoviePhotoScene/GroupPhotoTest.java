@@ -3,6 +3,15 @@ import GeneratePhotoElement.MovieScene;
 import GeneratePhotoElement.PhotoUser.*;
 import GeneratePhotoElement.ArPhotoRoom.*;
 
+/*
+* A GroupPhoto Scene
+* Including Proxy/Bridge/Abstract Factory/State
+* In this test, create one single room and user and generate a photo process
+* @version 0.2
+* @author Freakx
+* */
+
+
 public class GroupPhotoTest {
     public static void main(String[] args){
 
