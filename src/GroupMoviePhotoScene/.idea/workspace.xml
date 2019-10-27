@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1db20082-d3fe-49a0-adeb-dfc3a2c9f7e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/MoviePhotoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/MoviePhotoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/PhotoRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/PhotoRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/ProxyPhotoRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/ProxyPhotoRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/MovieScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/MovieScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/UserState.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/UserState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupPhotoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPhotoTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="1db20082-d3fe-49a0-adeb-dfc3a2c9f7e0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GroupPhotoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/ProxyPhotoRoom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -133,8 +123,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-185" />
-    <option name="y" value="25" />
+    <option name="x" value="227" />
+    <option name="y" value="27" />
     <option name="width" value="1421" />
     <option name="height" value="851" />
   </component>
@@ -179,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572183115414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572183125137" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -224,15 +214,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572181388771</updated>
-      <workItem from="1572181390011" duration="1721000" />
+      <workItem from="1572181390011" duration="1815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1721000" />
+    <option name="totallyTimeSpent" value="1815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="269" y="23" width="1421" height="851" extended-state="0" />
+    <frame x="227" y="27" width="1421" height="851" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -277,41 +267,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/MickeyPhotoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/FrozenPhotoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/WaitState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupPhotoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/MoviePhotoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -347,6 +306,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/MoviePhotoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/MickeyPhotoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/FrozenPhotoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupPhotoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
