@@ -3,7 +3,7 @@ import GeneratePhotoElement.*;
 
 public interface MoviePhotoFactory {
 
-    /* Generate a Scene with one Character and background word
+    /** Generate a Scene with one Character and background word
     * @param characterName
     *        Choose one Disney Character
     *        background
@@ -13,8 +13,8 @@ public interface MoviePhotoFactory {
     * */
     MovieScene createScene(String characterName, String background);
 
-    /* Create one logo(represented by a String)
-    @ return A String that represents the logo
+    /** Create one logo(represented by a String)
+    @return A String that represents the logo
     * */
 
     String createLogo();

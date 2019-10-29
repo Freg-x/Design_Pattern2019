@@ -1,6 +1,6 @@
 package GeneratePhotoElement.Character;
 
-/* Simply represents a DisneyCharacter
+/** Simply represents a DisneyCharacter
 *  Only contain name right now
 *  @author Freakx
 * */
@@ -12,4 +12,8 @@ public DisneyArCharacter(){};
 protected String characterName;
 
 public String getCharacterName(){return this.characterName;}
+public void sayHi(){};
+public void hug(){};
+public void Pose(){};
+
 }

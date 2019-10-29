@@ -9,6 +9,9 @@ public class ProxyPhotoRoom implements PhotoRoom {
     private int state;
 
     public ProxyPhotoRoom(){
+
+        System.out.println("******** Using Proxy Design Pattern in GroupPhotoScene ******** ");
+
         realPhotoRoom = new RealPhotoRoom();
         state = 0;
     }
@@ -27,7 +30,7 @@ public class ProxyPhotoRoom implements PhotoRoom {
 
     public int getState(){return this.state;}
 
-    /* Help to resolve the state of a realRoom
+    /** Help to resolve the state of a realRoom
      * react due to the state of a user and itselg
      * @param user
      *        the proxied user

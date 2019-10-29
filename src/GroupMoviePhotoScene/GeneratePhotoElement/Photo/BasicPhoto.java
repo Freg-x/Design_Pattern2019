@@ -1,0 +1,18 @@
+package GeneratePhotoElement.Photo;
+
+import GeneratePhotoElement.MovieScene;
+
+
+/** define a Basic photo class applying prototype design pattern
+ *  By using clone(), you will not need to know what exactly the request class is
+ * @author Freakx
+ * */
+
+
+public interface BasicPhoto {
+   BasicPhoto clone();
+   MovieScene getPhotoScene();
+   String getBackground();
+   String getLogo();
+
+}
