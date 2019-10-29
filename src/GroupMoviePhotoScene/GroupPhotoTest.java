@@ -34,7 +34,7 @@ public class GroupPhotoTest {
 
         testPhoto1.getPhotoScene().getMainCharacter().sayHi();
         testPhoto1.getPhotoScene().getMainCharacter().hug();
-        testPhoto1.getPhotoScene().getMainCharacter().Pose();
+        testPhoto1.getPhotoScene().getMainCharacter().pose();
 
         System.out.println("the main Ar Character in this photo is " + testCharacterName);
         System.out.println("the background word in this photo is " + testBackground);

@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db20082-d3fe-49a0-adeb-dfc3a2c9f7e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GeneratePhotoElement/Photo/BasicPhoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneratePhotoElement/Photo/FrozenPhoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneratePhotoElement/Photo/MickeyPhoto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/MoviePhotoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/AbstractFactory/MoviePhotoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/PhotoRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/PhotoRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/ProxyPhotoRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/ArPhotoRoom/ProxyPhotoRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/Character/ArDonaldDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/Character/ArDonaldDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/Character/ArElisa.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/Character/ArElisa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/Character/ArMickeyMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/Character/ArMickeyMouse.java" afterDir="false" />
@@ -16,9 +9,6 @@
       <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/Character/FrozenArCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/Character/FrozenArCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/Character/MickeyArCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/Character/MickeyArCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/MovieScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/MovieScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/UserState.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/UserState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupPhotoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPhotoTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GroupPhotoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
+            <state relative-caret-position="418">
+              <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Photo/BasicPhoto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -51,64 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/MickeyArCharacter.java">
+        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Photo/MickeyPhoto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/FrozenArCharacter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArMickeyMouse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArOlaf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArElisa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/MovieScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="434">
+              <caret line="37" column="99" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,10 +53,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/MickeyArCharacter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/FrozenArCharacter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArMickeyMouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArOlaf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArElisa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArDonaldDuck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="51" />
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -149,15 +139,15 @@
         <option value="$PROJECT_DIR$/GeneratePhotoElement/Photo/MickeyPhoto.java" />
         <option value="$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/User.java" />
         <option value="$PROJECT_DIR$/GeneratePhotoElement/MovieScene.java" />
-        <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java" />
-        <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/MickeyArCharacter.java" />
+        <option value="$PROJECT_DIR$/GeneratePhotoElement/Photo/BasicPhoto.java" />
         <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/FrozenArCharacter.java" />
+        <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/MickeyArCharacter.java" />
         <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/ArDonaldDuck.java" />
         <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/ArElisa.java" />
         <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/ArMickeyMouse.java" />
         <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/ArOlaf.java" />
         <option value="$PROJECT_DIR$/GroupPhotoTest.java" />
-        <option value="$PROJECT_DIR$/GeneratePhotoElement/Photo/BasicPhoto.java" />
+        <option value="$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java" />
       </list>
     </option>
   </component>
@@ -189,12 +179,6 @@
               <item name="GroupMoviePhotoScene" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupMoviePhotoScene" type="462c0819:PsiDirectoryNode" />
               <item name="GeneratePhotoElement" type="462c0819:PsiDirectoryNode" />
-              <item name="ArPhotoRoom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupMoviePhotoScene" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupMoviePhotoScene" type="462c0819:PsiDirectoryNode" />
-              <item name="GeneratePhotoElement" type="462c0819:PsiDirectoryNode" />
               <item name="Character" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572337921224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572339788282" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -266,12 +250,12 @@
       <option name="presentableId" value="Default" />
       <updated>1572181388771</updated>
       <workItem from="1572181390011" duration="1815000" />
-      <workItem from="1572333595284" duration="4182000" />
+      <workItem from="1572333595284" duration="5218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5997000" />
+    <option name="totallyTimeSpent" value="7033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -361,16 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Photo/MickeyPhoto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="99" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/PhotoUser/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -423,59 +397,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java">
+    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/FrozenArCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/MickeyArCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/FrozenArCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArDonaldDuck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArElisa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArMickeyMouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArOlaf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupPhotoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
+        <state relative-caret-position="418">
+          <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -486,6 +446,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Photo/MickeyPhoto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="37" column="99" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/ArMickeyMouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneratePhotoElement/Character/DisneyArCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
