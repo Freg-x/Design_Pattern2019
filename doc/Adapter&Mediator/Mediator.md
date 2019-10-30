@@ -43,4 +43,5 @@
 
 ### 2. class diagram
 
-![](Mediator.assets/mediator.jpg)
+![](../../image/BabyCareCenterScene/Mediator.jpg)
+

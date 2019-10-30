@@ -22,5 +22,5 @@
 
 ### 2. class diagram
 
-![adaptor](Adapter.assets/adaptor.png)
+![adaptor](../../image/BlindHelpScene/Adapter.jpg)
 
