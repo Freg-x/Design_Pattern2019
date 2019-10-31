@@ -1,16 +1,18 @@
 package Builder;
 import  Factory.Food;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+
 public class Order {
     private int number; //number of order
     private int total_price;
     private Date time;
-
-    public Food foods[];
+    public List<Food> foods = new ArrayList<Food>();
 
     public Order(){
-        System.out.println("An order has been created");
+
     }
 
     public int getNumber() {
@@ -30,23 +32,29 @@ public class Order {
     }
 
     public void setTime(){
-        SimpleDateFormat sdf = new SimpleDateFormat();// 格式化时间
-        sdf.applyPattern("yyyy-MM-dd HH:mm:ss a");// a为am/pm的标记
         this.time= new Date();// 获取当前时间
-        System.out.println(sdf.format(this.time)); // 输出已经格式化的现在时间（24小时制）
     }
 
-    public void setTotal_price(int total_price) {
-        this.total_price = total_price;
+    public void setTotal_price() {
+        for (Food f:foods
+        ) {
+            total_price+=f.getPrice();
+        }
     }
 
     public void display(){
-
+        System.out.println("Following Shows The Information of Current Order");
+        System.out.println("Order number:"+number);
+        System.out.println(time); // 输出已经格式化的现在时间（24小时制）
+        for (Food f:foods
+        ) {
+            System.out.println(f.getName()+"………………"+f.getPrice()+"yuan");
+        }
     }
 
-    public static void main(String[] args){
-        Order order = new Order();
-        order.setTime();
-        System.out.println(order.getTime());
-    }
+//    public static void main(String[] args){
+//        Order order = new Order();
+//        order.setTime();
+//        System.out.println(order.getTime());
+//    }
 }

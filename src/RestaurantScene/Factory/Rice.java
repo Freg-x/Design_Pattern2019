@@ -1,6 +1,6 @@
 package Factory;
 
-public class Rice {
+public class Rice extends Food{
     private String name = "Rice";
     private int price = 2;
     private String type = "Rice";

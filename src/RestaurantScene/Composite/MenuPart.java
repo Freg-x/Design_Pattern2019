@@ -1,7 +1,19 @@
 package Composite;
 import Composite.Menu;
-public class MenuPart extends Menu{
+import Factory.Food;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MenuPart {
     private String name;
+    private List<Food> foods = new ArrayList<Food>();
+
+
+    public MenuPart(String name){
+        System.out.println("MenuPart "+name+" was created.");
+        this.setName(name);
+    }
 
     public String getName() {
         return name;
@@ -11,7 +23,15 @@ public class MenuPart extends Menu{
         this.name = name;
     }
 
-    public void display(){
+    public void addFoods(Food f){
+        foods.add(f);
+    }
 
+    public void display(){
+        System.out.println(this.getName());
+        for (Food f :foods
+        ) {
+            f.display();
+        }
     }
 }

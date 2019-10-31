@@ -5,6 +5,7 @@ public class Food {
     private int price;
     private String type;
 
+
     public String getName(){
         return name;
     }
@@ -29,5 +30,16 @@ public class Food {
         this.type=type;
     }
 
+    public void display(){
+        System.out.println(getName()+"   "+getPrice()+"yuan");
+    }
+
+    public Food createFood(String name,int price,String type){
+        Food food = new Food();
+        food.setName(name);
+        food.setPrice(price);
+        food.setType(type);
+        return  food;
+    }
 }
 
