@@ -14,6 +14,6 @@ protected String characterName;
 public String getCharacterName(){return this.characterName;}
 public void sayHi(){}
 public void hug(){}
-public void psayose(){}
+public void pose(){}
 
 }
