@@ -8,7 +8,7 @@ public class TerminalExpression implements Expression{
     }
     @Override
     public boolean interpret(String context) {
-        System.out.println("Calling the Interpreter Pattern!");
+        System.out.println("******** Using the Interpreter Pattern ********");
         if(context.contains(data)){
             return true;
         }

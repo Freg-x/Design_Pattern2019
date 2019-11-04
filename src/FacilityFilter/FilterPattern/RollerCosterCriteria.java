@@ -1,7 +1,7 @@
-package FilterPattern;
+package FacilityFilter.FilterPattern;
 
-import ObserverPattern.Listener.EventListener;
-import java.util.ArrayList;
+import FacilityFilter.ObserverPattern.Listener.EventListener;
+
 import java.util.List;
 
 public class RollerCosterCriteria implements Criteria {
@@ -11,16 +11,16 @@ public class RollerCosterCriteria implements Criteria {
         this.cri2=cri2;
     }
 
-    /*  implement meetCriteria, combining the two simple criteria as a complex criteria,
+    /**  implement meetCriteria, combining the two simple criteria as a complex criteria,
      * firstly call the first criteria and call the second criteria.
-     *@param List<EventListener> visitors
+     *@param  visitors
      *       the whole visitors
      *@return List<EventListener>
      *        the filtered visitors
      */
     public List<EventListener> meetCriteria(List<EventListener> visitors){
         List<EventListener> FirstAdaptVisitor = cri1.meetCriteria(visitors);
-
+        System.out.println("******** Using the Observer Pattern ********");
         return cri2.meetCriteria(FirstAdaptVisitor);
     }
 }

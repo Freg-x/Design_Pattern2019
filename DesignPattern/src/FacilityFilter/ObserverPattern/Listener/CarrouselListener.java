@@ -10,6 +10,7 @@ public class CarrouselListener  extends EventListener{
 
     @Override
     public void update(String FacilityType) {
+        System.out.println("******** Using the Observer Pattern ********");
         System.out.println("person "+this.getName()+" age:"+this.getAge()+" height:"+this.getHeight()+" is comming to the Carrousel!");
     }
 }

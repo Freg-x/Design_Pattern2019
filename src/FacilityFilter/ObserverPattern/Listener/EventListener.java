@@ -1,4 +1,4 @@
-package ObserverPattern.Listener;
+package FacilityFilter.ObserverPattern.Listener;
 
 public abstract class EventListener {
     public abstract void update(String FacilityType);

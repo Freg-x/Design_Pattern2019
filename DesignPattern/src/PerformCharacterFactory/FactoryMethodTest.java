@@ -9,9 +9,10 @@ public class FactoryMethodTest {
         factory1 = new PrincessCharacterFactory();
         factory2 = new DwarfCharacterFactory();
 
+        System.out.println("******** Using the Factory Method Pattern ********");
         System.out.println("Creating a princess:");
         factory1.performing();
-        System.out.println("\nCreating a dwarf:");
+        System.out.println("Creating a dwarf:");
         factory2.performing();
     }
 }

@@ -1,6 +1,6 @@
-package ObserverPattern.Publisher;
+package FacilityFilter.ObserverPattern.Publisher;
 
-import ObserverPattern.Listener.EventListener;
+import FacilityFilter.ObserverPattern.Listener.EventListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,8 +9,8 @@ import java.util.Map;
 
 public class EventHandler {
     private Map<String,List<EventListener>> listeners = new HashMap<>();
-    /* Constructor for EventHandler, create empty array list for each facility type
-    *@param facilityTypes[]
+    /** Constructor for EventHandler, create empty array list for each facility type
+    *@param facilityTypes
     *       the array of facilityTypes
     *@return void
     */
@@ -22,7 +22,7 @@ public class EventHandler {
         }
     }
 
-    /*  The function for event listeners to subscribe one of the facility,
+    /**  The function for event listeners to subscribe one of the facility,
      *  add the listener to the array list of the facility
      *@param FacilityType
      *       the explicit facility type
@@ -36,7 +36,7 @@ public class EventHandler {
         users.add(listener);
     }
 
-    /*  The function for event listeners to unsubscribe one of the facility,
+    /**  The function for event listeners to unsubscribe one of the facility,
      *  remove the listener to the array list of the facility
      *@param FacilityType
      *       the explicit facility type
@@ -50,7 +50,7 @@ public class EventHandler {
         users.remove(listener);
     }
 
-    /*  To notify every listener subscribed the facility while a facility changes
+    /**  To notify every listener subscribed the facility while a facility changes
      *@param FacilityType
      *       the explicit facility type
      *@return void

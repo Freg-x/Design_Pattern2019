@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CriteriaHarderHeight implements Criteria {
-    /*  implement meetCriteria, select the visitors who are at the height of between 120 and 180
-     *@param List<EventListener> visitors
+    /**  implement meetCriteria, select the visitors who are at the height of between 120 and 180
+     *@param visitors
      *       the whole visitors
      *@return List<EventListener>
      *        the filtered visitors

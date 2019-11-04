@@ -1,8 +1,9 @@
 package DefineSyntax;
+
 import DefineSyntax.InterpreterPattern.*;
 
 public class DefineSyntaxTest {
-	public static Expression getCharacterExpression(){
+    public static Expression getCharacterExpression(){
         Expression micky = new TerminalExpression("micky");
         Expression donald = new TerminalExpression("donald");
         return new orExpression(micky,donald);
@@ -18,10 +19,9 @@ public class DefineSyntaxTest {
         Expression DisneyCharacter = getCharacterExpression();
         Expression isDaisyFemale = getDaisyFemaleExpression();
 
-        System.out.println("Is micky a Disney Character? "+DisneyCharacter.interpret("micky")+"\n");
+        System.out.println("Is micky a Disney Character? "+DisneyCharacter.interpret("micky"));
         System.out.println("Is Daisy a female? "+isDaisyFemale.interpret("daisy female"));
 
 
     }
-
 }

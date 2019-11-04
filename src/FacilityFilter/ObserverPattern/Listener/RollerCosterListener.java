@@ -1,4 +1,4 @@
-package ObserverPattern.Listener;
+package FacilityFilter.ObserverPattern.Listener;
 
 public class RollerCosterListener extends EventListener {
 
@@ -9,6 +9,7 @@ public class RollerCosterListener extends EventListener {
     }
     @Override
     public void update(String FacilityType) {
+         System.out.println("******** Using the Observer Pattern ********");
          System.out.println("person "+this.getName()+" age:"+this.getAge()+" height:"+this.getHeight()+" is comming to the RollerCoster!");
     }
 }

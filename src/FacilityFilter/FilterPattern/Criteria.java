@@ -1,6 +1,6 @@
-package FilterPattern;
+package FacilityFilter.FilterPattern;
 
-import ObserverPattern.Listener.EventListener;
+import FacilityFilter.ObserverPattern.Listener.EventListener;
 import java.util.List;
 
 public interface Criteria {

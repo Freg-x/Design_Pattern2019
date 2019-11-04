@@ -1,6 +1,6 @@
-package FilterPattern;
+package FacilityFilter.FilterPattern;
 
-import ObserverPattern.Listener.EventListener;
+import FacilityFilter.ObserverPattern.Listener.EventListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +8,8 @@ import java.util.List;
 
 public class CriteriaAdult implements Criteria {
 
-    /*  implement meetCriteria, select the visitors who are at the age between 12 and 70
-     *@param List<EventListener> visitors
+    /**  implement meetCriteria, select the visitors who are at the age between 12 and 70
+     *@param  visitors
      *       the whole visitors
      *@return List<EventListener>
      *        the filtered visitors

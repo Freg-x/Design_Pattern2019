@@ -1,13 +1,13 @@
-package FilterPattern;
+package FacilityFilter.FilterPattern;
 
-import ObserverPattern.Listener.EventListener;
+import FacilityFilter.ObserverPattern.Listener.EventListener;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class CriteriaNormalHeight implements Criteria {
-    /*  implement meetCriteria, select the visitors who are at the height of between 100 and 200
-     *@param List<EventListener> visitors
+    /**  implement meetCriteria, select the visitors who are at the height of between 100 and 200
+     *@param  visitors
      *       the whole visitors
      *@return List<EventListener>
      *        the filtered visitors

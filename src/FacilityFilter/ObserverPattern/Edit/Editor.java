@@ -1,6 +1,6 @@
-package ObserverPattern.Edit;
+package FacilityFilter.ObserverPattern.Edit;
 
-import ObserverPattern.Publisher.EventHandler;
+import FacilityFilter.ObserverPattern.Publisher.EventHandler;
 
 public class Editor {
     public EventHandler events;

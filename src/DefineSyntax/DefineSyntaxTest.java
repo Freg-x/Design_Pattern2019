@@ -19,7 +19,7 @@ public class DefineSyntaxTest {
         Expression DisneyCharacter = getCharacterExpression();
         Expression isDaisyFemale = getDaisyFemaleExpression();
 
-        System.out.println("Is micky a Disney Character? "+DisneyCharacter.interpret("micky")+"\n");
+        System.out.println("Is micky a Disney Character? "+DisneyCharacter.interpret("micky"));
         System.out.println("Is Daisy a female? "+isDaisyFemale.interpret("daisy female"));
 
 
