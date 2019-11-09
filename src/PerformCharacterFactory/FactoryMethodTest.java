@@ -3,9 +3,9 @@ package PerformCharacterFactory;
 import PerformCharacterFactory.FactoryMethodPattern.*;
 
 public class FactoryMethodTest {
-    private static CharacterFactory factory1,factory2;
+    private static CharacterFactory factory1, factory2;
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         factory1 = new PrincessCharacterFactory();
         factory2 = new DwarfCharacterFactory();
 

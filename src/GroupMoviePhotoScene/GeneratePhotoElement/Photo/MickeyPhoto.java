@@ -4,20 +4,19 @@ import GeneratePhotoElement.AbstractFactory.*;
 import GeneratePhotoElement.MovieScene;
 
 
-
 public class MickeyPhoto implements BasicPhoto {
     private MovieScene mickeyPhotoScene;
     private String background;
     private String logo;
 
 
-    public MickeyPhoto(String characterName, String background){
+    public MickeyPhoto(String characterName, String background) {
 
         System.out.println("******** Using Abstract Factory Design Pattern in GroupPhotoScene *********");
 
         MickeyPhotoFactory mickeyPhotoFactory = new MickeyPhotoFactory();
 
-        this.mickeyPhotoScene = mickeyPhotoFactory.createScene(characterName,background);
+        this.mickeyPhotoScene = mickeyPhotoFactory.createScene(characterName, background);
 
         this.background = background;
 
@@ -25,7 +24,7 @@ public class MickeyPhoto implements BasicPhoto {
 
     }
 
-    public MickeyPhoto(MickeyPhoto originPhoto){
+    public MickeyPhoto(MickeyPhoto originPhoto) {
         this.mickeyPhotoScene = originPhoto.mickeyPhotoScene;
         this.background = originPhoto.background;
         this.logo = "Mickey";
@@ -40,8 +39,16 @@ public class MickeyPhoto implements BasicPhoto {
         return new MickeyPhoto(this);
     }
 
-    public MovieScene getPhotoScene(){return this.mickeyPhotoScene;}
-    public String getBackground(){return this.background;}
-    public String getLogo(){return this.logo;}
+    public MovieScene getPhotoScene() {
+        return this.mickeyPhotoScene;
+    }
+
+    public String getBackground() {
+        return this.background;
+    }
+
+    public String getLogo() {
+        return this.logo;
+    }
 
 }

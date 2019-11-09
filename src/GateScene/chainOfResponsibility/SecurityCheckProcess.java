@@ -13,40 +13,47 @@ public class SecurityCheckProcess {
     public SecurityCheckComponent getHeadComponent() {
         return headComponent;
     }
+
     // the head component
     private SecurityCheckComponent headComponent;
 
-    /** Add a new component to the Security check process
+    /**
+     * Add a new component to the Security check process
+     *
      * @param component the component to add to the use
      */
-    public void Use(SecurityCheckComponent component){
-        System.out.println("Use component "+component.getClass().getName());
-        if(headComponent == null){
+    public void Use(SecurityCheckComponent component) {
+        System.out.println("Use component " + component.getClass().getName());
+        if (headComponent == null) {
             headComponent = component;
-        }else {
+        } else {
             headComponent.setNext(component);
         }
     }
 
-    /** Check an item
+    /**
+     * Check an item
+     *
      * @param item the item to process
      * @return if the item is safe, return true, else return false
      */
-    public boolean process(Item item){
-        if(headComponent == null){
+    public boolean process(Item item) {
+        if (headComponent == null) {
             return false;
-        }else {
+        } else {
             return headComponent.check(item);
         }
     }
 
-    /** A factory method of the iterator
+    /**
+     * A factory method of the iterator
+     *
      * @return the security check iterator
      */
-    public SecurityCheckProcessIterator createIterator(){
-        if(headComponent==null){
+    public SecurityCheckProcessIterator createIterator() {
+        if (headComponent == null) {
             return null;
-        }else {
+        } else {
             return new SecurityCheckProcessIterator(headComponent);
         }
     }

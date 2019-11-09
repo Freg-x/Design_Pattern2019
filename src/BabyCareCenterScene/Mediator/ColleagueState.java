@@ -12,6 +12,7 @@ public enum ColleagueState {
 
     /**
      * 构造函数
+     *
      * @param description 状态描述语
      */
     ColleagueState(String description) {
@@ -20,6 +21,7 @@ public enum ColleagueState {
 
     /**
      * 返回状态描述语
+     *
      * @return 状态描述语
      */
     public String toString() {

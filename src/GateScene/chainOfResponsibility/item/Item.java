@@ -14,6 +14,6 @@ public interface Item {
      * enum of attributes
      */
     enum Attribute {
-        sharp,explosive,flammable,fragile
+        sharp, explosive, flammable, fragile
     }
 }

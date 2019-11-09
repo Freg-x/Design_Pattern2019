@@ -6,11 +6,11 @@ package BlindHelpScene.AdapterAndTemplateMethod;
  */
 public class TalkingGuide extends Guide {
 
-    public TalkingGuide(){
+    public TalkingGuide() {
         super("Soundable");
     }
 
-    public void guide(){
+    public void guide() {
         String funcName = Thread.currentThread().getStackTrace()[1].getMethodName();
         System.out.println(this.getClass() + " : " + funcName + " : " + "The talking guide will help you enjoy the travel in DisneyLand.");
     }

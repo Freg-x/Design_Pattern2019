@@ -19,6 +19,7 @@ public class BabyCareCenter implements Mediator {
 
     /**
      * 登记Colleague，为每个Colleague提供Mediator
+     *
      * @param colleague 在走失儿童认领处登记的游客
      */
     @Override
@@ -30,7 +31,8 @@ public class BabyCareCenter implements Mediator {
     /**
      * 在家长与其失散的孩子团聚后调用此方法。
      * 将家长及其孩子的状态设置为REUNION
-     * @param colleague 寻人请求发起方
+     *
+     * @param colleague  寻人请求发起方
      * @param colleague1 发起方需要寻找的对象
      */
     @Override
@@ -41,6 +43,7 @@ public class BabyCareCenter implements Mediator {
 
     /**
      * 为每个需要寻找其亲人的Colleague提供帮助
+     *
      * @param colleague 寻人请求发起方
      */
     public void offerHelp(Colleague colleague) {

@@ -11,12 +11,11 @@ public class SecurityCheckProcessIterator implements Iterator<SecurityCheckCompo
      * @return weather there is any component left in the process
      */
     @Override
-    public boolean hasNext()
-    {
-        if (isBegin){
-            return currentComponent!=null;
+    public boolean hasNext() {
+        if (isBegin) {
+            return currentComponent != null;
         }
-        return currentComponent.getNext()!=null;
+        return currentComponent.getNext() != null;
     }
 
     /**
@@ -24,16 +23,17 @@ public class SecurityCheckProcessIterator implements Iterator<SecurityCheckCompo
      */
     @Override
     public SecurityCheckComponent next() {
-        if(isBegin){
+        if (isBegin) {
             isBegin = false;
             return currentComponent;
-        }else {
-            SecurityCheckComponent next =  currentComponent.getNext();
+        } else {
+            SecurityCheckComponent next = currentComponent.getNext();
             currentComponent = next;
             return next;
         }
     }
-    SecurityCheckProcessIterator(SecurityCheckComponent headComponent){
+
+    SecurityCheckProcessIterator(SecurityCheckComponent headComponent) {
         currentComponent = headComponent;
         isBegin = true;
     }

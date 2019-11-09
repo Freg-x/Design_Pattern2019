@@ -1,6 +1,6 @@
 package GeneratePhotoElement.ArPhotoRoom;
-import GeneratePhotoElement.PhotoUser.*;
 
+import GeneratePhotoElement.PhotoUser.*;
 
 
 public class ProxyPhotoRoom implements PhotoRoom {
@@ -8,7 +8,7 @@ public class ProxyPhotoRoom implements PhotoRoom {
 
     private int state;
 
-    public ProxyPhotoRoom(){
+    public ProxyPhotoRoom() {
 
         System.out.println("******** Using Proxy Design Pattern in GroupPhotoScene ******** ");
 
@@ -17,38 +17,40 @@ public class ProxyPhotoRoom implements PhotoRoom {
     }
 
     @Override
-    public void shot(){
-        if(realPhotoRoom == null)realPhotoRoom = new RealPhotoRoom();
+    public void shot() {
+        if (realPhotoRoom == null) realPhotoRoom = new RealPhotoRoom();
         realPhotoRoom.shot();
-    };
+    }
+
+    ;
 
     @Override
     public void produce() {
-        if(realPhotoRoom == null)realPhotoRoom = new RealPhotoRoom();
+        if (realPhotoRoom == null) realPhotoRoom = new RealPhotoRoom();
         realPhotoRoom.produce();
     }
 
-    public int getState(){return this.state;}
+    public int getState() {
+        return this.state;
+    }
 
-    /** Help to resolve the state of a realRoom
+    /**
+     * Help to resolve the state of a realRoom
      * react due to the state of a user and itselg
-     * @param user
-     *        the proxied user
-    * */
+     *
+     * @param user the proxied user
+     */
 
-    public void proxy(User user){
-        if(this.state == 0 && user.getCur_state().getStateName().equalsIgnoreCase("Apply")){
+    public void proxy(User user) {
+        if (this.state == 0 && user.getCur_state().getStateName().equalsIgnoreCase("Apply")) {
             this.shot();
             this.state = 1;
-        }
-        else if(user.getCur_state().getStateName().equalsIgnoreCase("End")){
+        } else if (user.getCur_state().getStateName().equalsIgnoreCase("End")) {
             this.produce();
             this.state = 0;
-        }
-        else if(user.getCur_state().getStateName().equalsIgnoreCase("Wait")){
+        } else if (user.getCur_state().getStateName().equalsIgnoreCase("Wait")) {
             System.out.println("You are still waiting...");
-        }
-        else if(this.state == 1 && user.getCur_state().getStateName().equalsIgnoreCase("Apply")){
+        } else if (this.state == 1 && user.getCur_state().getStateName().equalsIgnoreCase("Apply")) {
             System.out.println("Already full!");
         }
 

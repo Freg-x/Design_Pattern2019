@@ -1,9 +1,9 @@
 package GateScene.chainOfResponsibility;
 
-/** interface of the iterator of a collection
- *
+/**
+ * interface of the iterator of a collection
  */
-public interface Iterator<E>  {
+public interface Iterator<E> {
 
     /**
      * @return weather there is any item left in the collection

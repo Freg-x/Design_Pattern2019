@@ -12,11 +12,10 @@ public class CriteriaHarderHeight implements Criteria {
      *@return List<EventListener>
      *        the filtered visitors
      */
-    public List<EventListener> meetCriteria(List<EventListener> visitors){
+    public List<EventListener> meetCriteria(List<EventListener> visitors) {
         List<EventListener> HardHeightVisitor = new ArrayList<EventListener>();
-        for(EventListener visitor:visitors)
-        {
-            if(visitor.getHeight()<=180 && visitor.getHeight()>=120){
+        for (EventListener visitor : visitors) {
+            if (visitor.getHeight() <= 180 && visitor.getHeight() >= 120) {
                 HardHeightVisitor.add(visitor);
             }
         }

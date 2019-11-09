@@ -14,11 +14,10 @@ public class CriteriaAdult implements Criteria {
      *@return List<EventListener>
      *        the filtered visitors
      */
-    public List<EventListener> meetCriteria(List<EventListener> visitors){
+    public List<EventListener> meetCriteria(List<EventListener> visitors) {
         List<EventListener> AdultsVisitor = new ArrayList<EventListener>();
-        for(EventListener visitor:visitors)
-        {
-            if(visitor.getAge()<=70 && visitor.getAge()>=12){
+        for (EventListener visitor : visitors) {
+            if (visitor.getAge() <= 70 && visitor.getAge() >= 12) {
                 AdultsVisitor.add(visitor);
             }
         }

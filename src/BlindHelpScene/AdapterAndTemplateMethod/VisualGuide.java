@@ -6,7 +6,7 @@ package BlindHelpScene.AdapterAndTemplateMethod;
  */
 public class VisualGuide extends Guide {
 
-    public VisualGuide(){
+    public VisualGuide() {
         super("Visual");
     }
 

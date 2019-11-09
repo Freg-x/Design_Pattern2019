@@ -12,11 +12,10 @@ public class CriteriaNormalHeight implements Criteria {
      *@return List<EventListener>
      *        the filtered visitors
      */
-    public List<EventListener> meetCriteria(List<EventListener> visitors){
+    public List<EventListener> meetCriteria(List<EventListener> visitors) {
         List<EventListener> NormalHeightVisitor = new ArrayList<EventListener>();
-        for(EventListener visitor:visitors)
-        {
-            if(visitor.getHeight()<=200 && visitor.getHeight()>=100){
+        for (EventListener visitor : visitors) {
+            if (visitor.getHeight() <= 200 && visitor.getHeight() >= 100) {
                 NormalHeightVisitor.add(visitor);
             }
         }

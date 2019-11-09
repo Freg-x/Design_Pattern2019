@@ -1,6 +1,7 @@
 package BabyCareCenterScene;
 
 import BabyCareCenterScene.Mediator.*;
+
 import java.util.List;
 
 public class MediatorTest {
