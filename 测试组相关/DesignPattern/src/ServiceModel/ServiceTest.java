@@ -26,53 +26,37 @@ public class ServiceTest {
             int OpNumber = sc.nextInt();
 
             if (OpNumber == 11) {
-                EatingFactory factory;
-                Drink drink;
-                factory = new WemStore();
-                drink = factory.newDrink();
+                EatingFactory factory = new WemStore();
+                Drink drink = factory.newDrink();
                 drink.Import();
             } else if (OpNumber == 12) {
-                EatingFactory factory;
-                Drink drink;
-                factory = new WemStore();
-                drink = factory.newDrink();
+                EatingFactory factory = new WemStore();
+                Drink drink = factory.newDrink();
                 drink.Sell();
             } else if (OpNumber == 13) {
-                EatingFactory factory;
-                Snacks snacks;
-                factory = new WemStore();
-                snacks = factory.newSnacks();
-                snacks.Import();
+                EatingFactory factory = new WemStore();
+                Snacks snack = factory.newSnacks();
+                snack.Import();
             } else if (OpNumber == 14) {
-                EatingFactory factory;
-                Snacks snacks;
-                factory = new WemStore();
-                snacks = factory.newSnacks();
-                snacks.Sell();
+                EatingFactory factory = new WemStore();
+                Snacks snack = factory.newSnacks();
+                snack.Sell();
             } else if (OpNumber == 21) {
-                EatingFactory factory;
-                Drink drink;
-                factory = new WsStore();
-                drink = factory.newDrink();
+                EatingFactory factory = new WsStore();
+                Drink drink = factory.newDrink();
                 drink.Import();
             } else if (OpNumber == 22) {
-                EatingFactory factory;
-                Drink drink;
-                factory = new WsStore();
-                drink = factory.newDrink();
+                EatingFactory factory = new WsStore();
+                Drink drink = factory.newDrink();
                 drink.Sell();
             } else if (OpNumber == 23) {
-                EatingFactory factory;
-                Snacks snacks;
-                factory = new WsStore();
-                snacks = factory.newSnacks();
-                snacks.Import();
+                EatingFactory factory = new WsStore();
+                Snacks snack = factory.newSnacks();
+                snack.Import();
             } else if (OpNumber == 24) {
-                EatingFactory factory;
-                Snacks snacks;
-                factory = new WsStore();
-                snacks = factory.newSnacks();
-                snacks.Sell();
+                EatingFactory factory = new WsStore();
+                Snacks snack = factory.newSnacks();
+                snack.Sell();
             } else if (OpNumber == 0) {
 
                 System.out.print("exit!");
