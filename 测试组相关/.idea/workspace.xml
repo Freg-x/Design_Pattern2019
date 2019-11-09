@@ -1,115 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67d8d2da-8767-440f-90aa-2e572647ac72" name="Default Changelist" comment="" />
+    <list default="true" id="67d8d2da-8767-440f-90aa-2e572647ac72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/TemplateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/AdapterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/MediatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/FacadeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/EntertainmentModel/Template/TemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/MaintenanceModel/Adapter/AdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/MaintenanceModel/Medium/MediatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/ServiceModel/Facade/FacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/测试文档汇总/测试总结-张亦驰.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/BuildTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/BuilderAndPrototype/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/BuilderAndPrototype/Building.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/BuilderAndPrototype/BuildingWordker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/BuilderAndPrototype/Dorm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/BuilderAndPrototype/DormBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/BuilderAndPrototype/Spot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/BuilderAndPrototype/SpotBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Factory/Carouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Factory/CarouseFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Factory/Rides.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Factory/RidesFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Factory/Switchback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Factory/SwitchbackFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Flyweight/ViewSpot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Flyweight/ViewSpotType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Flyweight/ViewSpotTypeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/BuildModel/Singlon/Casino.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Decorator/Changer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Decorator/OriginalVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Decorator/Superman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Decorator/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Decorator/Witch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/EntertainmentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Template/Facility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Template/Merry_go_round.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Template/Roller_coasters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/EntertainmentModel/Template/Sky_wheel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Adapter/ElectricAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Adapter/ElectricMotor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Adapter/Motor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Adapter/OpticalAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Adapter/OpticalMotor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ChainOfResponsibility/ResponsibilityHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/MaintenanceModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Medium/FixFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Medium/FixMedium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Medium/FixWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Medium/Medium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/Medium/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/AlarmBell$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/AlarmBell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/AlarmLong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/AlarmShort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/AlarmSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/Bell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/BellCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/MaintenanceModel/ObserverAndCommand/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/Chocolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/Drink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/EatingFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/Icecream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/Juice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/Snacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/Water.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/WemStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/AbstractFactory/WsStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/Acceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/CommentVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/MyList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/RecordVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/ScenicSpot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/Spots.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/ThemeDistrict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/CompositeAndVisitorAndIterator/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/Facade/Facade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/Facade/Route.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/Facade/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/Facade/TourPack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/Facade/TourPack1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/Facade/TourPack2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/Facade/Visitors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/ServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/StateAndMemento/Finished.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/StateAndMemento/Memento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/StateAndMemento/Questionnaire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/StateAndMemento/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/StateAndMemento/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/StateAndMemento/Unfinished$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/ServiceModel/StateAndMemento/Unfinished.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TestAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Bridge/BuyTicket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Bridge/Eat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Bridge/Pay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Bridge/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Bridge/PurchaseByAlipay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Bridge/PurchaseByWechat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Interpreter/AndExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Interpreter/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Interpreter/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Interpreter/TerminalExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Proxy/BuyTicket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Proxy/OnlineProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/Proxy/TouristToBuy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/State/AgeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/State/ChildrenPriceState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/State/NormalPriceState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/State/OldPriceState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/State/PriceState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/TicketPurchaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/strategy/FullReduction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/strategy/HalfPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/strategy/OriginalPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/strategy/SellStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/production/DesignPattern/TicketPurchaseModel/strategy/Seller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuildTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuildTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/BuildingWordker.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/BuildingWordker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/Dorm.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/Dorm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/DormBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/DormBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/Spot.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/Spot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/SpotBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/BuilderAndPrototype/SpotBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/Carouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/Carouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/CarouseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/CarouseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/Rides.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/Rides.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/RidesFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/RidesFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/Switchback.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/Switchback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/SwitchbackFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Factory/SwitchbackFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Flyweight/ViewSpot.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Flyweight/ViewSpot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Flyweight/ViewSpotType.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Flyweight/ViewSpotType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Flyweight/ViewSpotTypeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Flyweight/ViewSpotTypeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Singlon/Casino.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/BuildModel/Singlon/Casino.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/Changer.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/Changer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/OriginalVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/OriginalVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/Superman.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/Superman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/Witch.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Decorator/Witch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/EntertainmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/EntertainmentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/Facility.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/Facility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/Merry_go_round.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/Merry_go_round.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/Roller_coasters.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/Roller_coasters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/Sky_wheel.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/EntertainmentModel/Template/Sky_wheel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/ElectricAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/ElectricAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/ElectricMotor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/ElectricMotor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/Motor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/Motor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/OpticalAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/OpticalAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/OpticalMotor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Adapter/OpticalMotor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ChainOfResponsibility/ResponsibilityHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ChainOfResponsibility/ResponsibilityHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/MaintenanceModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/MaintenanceModelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/FixFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/FixFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/FixMedium.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/FixMedium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/FixWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/FixWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/Medium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/Medium/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmBell$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmBell$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmBell.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmBell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmLong.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmLong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmShort.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmShort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/AlarmSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/Bell.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/Bell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/BellCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/BellCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/MaintenanceModel/ObserverAndCommand/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Chocolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Chocolate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Drink.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Drink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/EatingFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/EatingFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Icecream.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Icecream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Juice.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Juice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Snacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Snacks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Water.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/Water.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/WemStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/WemStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/WsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/AbstractFactory/WsStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/Acceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/CommentVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/CommentVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/MyList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/MyList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/MyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/RecordVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/RecordVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/ScenicSpot.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/ScenicSpot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/Spots.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/Spots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/ThemeDistrict.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/ThemeDistrict.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/CompositeAndVisitorAndIterator/Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/Facade.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/Facade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/Route.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/TourPack.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/TourPack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/TourPack1.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/TourPack1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/TourPack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/TourPack2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/Visitors.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/Facade/Visitors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/ServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/ServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Finished.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Finished.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Memento.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Memento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Questionnaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Questionnaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Unfinished$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Unfinished$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Unfinished.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/ServiceModel/StateAndMemento/Unfinished.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TestAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TestAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/BuyTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/BuyTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/Eat.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/Eat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/Pay.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/Pay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/PurchaseByAlipay.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/PurchaseByAlipay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/PurchaseByWechat.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Bridge/PurchaseByWechat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Interpreter/AndExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Interpreter/AndExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Interpreter/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Interpreter/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Interpreter/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Interpreter/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Interpreter/TerminalExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Interpreter/TerminalExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Proxy/BuyTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Proxy/BuyTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Proxy/OnlineProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Proxy/OnlineProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Proxy/TouristToBuy.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/Proxy/TouristToBuy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/AgeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/AgeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/ChildrenPriceState.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/ChildrenPriceState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/NormalPriceState.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/NormalPriceState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/OldPriceState.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/OldPriceState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/PriceState.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/State/PriceState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/TicketPurchaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/TicketPurchaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/FullReduction.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/FullReduction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/HalfPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/HalfPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/OriginalPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/OriginalPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/SellStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/SellStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/Seller.class" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/out/test/16/TicketPurchaseModel/strategy/Seller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/MaintenanceModel/MaintenanceModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/MaintenanceModel/MaintenanceModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$项目说明文档.docx" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/TestAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/TicketPurchaseModel/TicketPurchaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/ServiceModel/ServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/DesignPattern/src/TestAll.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/TicketPurchaseModel/TicketPurchaseTest.java" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="23" />
-    <option name="width" value="1421" />
-    <option name="height" value="888" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="16" type="b2602c69:ProjectViewProjectNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16" type="b2602c69:ProjectViewProjectNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16" type="b2602c69:ProjectViewProjectNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16" type="b2602c69:ProjectViewProjectNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ServiceModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16" type="b2602c69:ProjectViewProjectNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TicketPurchaseModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1TNBnlMnu9r1OXlLt5FEAaV99TM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573100568397" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
@@ -124,7 +282,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FacadeTest">
+    <configuration name="FacadeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServiceModel.Facade.FacadeTest" />
+      <module name="16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServiceModel.Facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaintenanceModel.Medium.MediatorTest" />
+      <module name="16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MaintenanceModel.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestAll" />
       <module name="16" />
@@ -134,6 +318,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadeTest" />
+        <item itemvalue="Application.MediatorTest" />
         <item itemvalue="Application.TestAll" />
       </list>
     </recent_temporary>
@@ -149,149 +335,22 @@
       <option name="presentableId" value="Default" />
       <updated>1573100400169</updated>
       <workItem from="1573100403242" duration="264000" />
+      <workItem from="1573290843128" duration="12614000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="74" y="23" width="1421" height="888" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32914573" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6683417" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/TestAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/TicketPurchaseModel/TicketPurchaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/ServiceModel/ServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>16</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
